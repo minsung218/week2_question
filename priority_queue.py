@@ -13,11 +13,11 @@ class PriorityQueue:
       # priority, item = self.heap.pop()
       item = self.heap.pop()
       self._sift_down(0)
-      return item
+      return item[0]
     elif len(self.heap) == 1:
       # priority, item = self.heap.pop()
       item = self.heap.pop()
-      return item
+      return item[0]
     else:
       return None
 
